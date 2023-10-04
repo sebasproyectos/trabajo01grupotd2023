@@ -1,0 +1,44 @@
+---
+title: "Enunciados"
+author: "Lucía Lara"
+date: "2023-10-04"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+LUCÍA LARA LATORRE
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("teoriadecision_funciones_incertidumbre.R")
+```
+ - *EJERCICIO 1*
+ 
+ Aplicar los criterios de decisión bajo incertidumbre a los problemas cuya matriz de valores numéricos vienen dadas en las tablas siguientes
+```{r, include=FALSE}
+
+tb01a <- crea.tablaX(c(1,5,9,3,5,6,
+1,5,6,9,5,2,
+-5,3,-9,4),numalternativas=4, numestados=4)
+library(knitr)
+```
+```{r}
+kable(tb01a)
+```
+
+ 
+ 
+ 
+ - *EJERCICIO 2*
+ 
+Una empresa se está planteando introducir el teletrabajo. Actualmente el sistema es de completa presencialidad. Van a plantear 3 opciones : seguir con el modelo actual, un modelo de semipresencialidad y un modelo de trabajar totalmente desde casa. El rendimiento de la empresa dependerá de la adaptación de los trabajadores al método elegido.
+Los beneficios de la empresa en cada caso serán:
+
+- Con el sistema totalmente presencial, si los trabajadores no se adaptan los beneficios son 650, si se adaptan regular 550 y si se adaptan muy bien 700.
+
+- En el sistema mixto, si los clientes no se adaptan los beneficios son de 400, si se adaptan regular 900 y si se adaptan muy bien 950
+
+- Con el teletrabajo, si los clientes no se adaptan los beneficios son de 300, si se adaptan regular 1000 y si se adaptan muy bien 1500
+
+ 
