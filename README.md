@@ -4,6 +4,5 @@ Tareas TD curso 23-24
 # Nombre de los alumnos
 - **Pepa Gutierrez Salado**
 - **María de la Encarnación Gómez Arias**
-- **Ana María Lago Castellet**
 - **Lucía Lara Latorre**
 - **Sebastián León Diaz**
