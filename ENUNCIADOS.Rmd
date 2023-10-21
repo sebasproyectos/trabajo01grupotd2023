@@ -78,3 +78,18 @@ Alejandra está considerando la posibilidad de inscribirse en un gimnasio para m
  **Estado de la Naturaleza 2: Inscripción con Amigo:** Alejandra decide inscribirse en el gimnasio junto con un amigo para aprovechar los descuentos disponibles.  
  
  ¿Cuál es la mejor opción para Alejandra en términos de costo total durante el primer año? Representa las ecuaciones de alternativas para cada gimnasio y estado de la naturaleza, y luego recomienda la opción más conveniente.
+
+## Encarni Gómez Arias
+
+**Problema 1.** Aplicar los criterios de decisión bajo incertidumbre al problema cuya matriz de valores numéricos viene dada en la tabla siguiente (tanto en situación favorable como desfavorable).
+
+**Problema 2.** Carlos se está planteando contratar una plataforma para poder disfrutar de todas las películas y series posibles. Está intentando elegir entre 3 plataformas, teniendo en cuenta los descuentos que le ofrece cada una de ellas:
+
+-   Plataforma 1. Su costo es de 10 euros al mes. Si comparte cuenta con un amigo, le harían un descuento mensual del 15%.
+
+-   Plataforma 2. Su costo es de 60 euros al año. En este caso, si comparte cuenta con un amigo no le harían ningún tipo de descuento.
+
+-   Plataforma 3. Su costo es de 7 euros al mes. Si comparte cuenta con un amigo, le harían un descuento mensual del 5%.
+
+¿Cuál de las tres plataformas sería más económica para Carlos? ¿La debería contratar solo o con un amigo?
+
