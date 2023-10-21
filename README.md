@@ -7,7 +7,7 @@ Tareas TD curso 23-24
 - **Lucía Lara Latorre**
 - **Sebastián León Diaz**
 
-# Descrpción
+# Descripción
 Este proyecto consiste en plantear, cada uno, dos problemas (8 problemas en total), que se resuelven aplicando métodos de incertidumbre. Los métodos aplicados son:
 - Criterio de Wald
 - Criterio optimista
