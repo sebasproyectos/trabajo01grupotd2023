@@ -1,0 +1,80 @@
+---
+title: "Enunciados"
+author: "Pepa"
+date: "2023-10-15"
+output: html_document
+---
+
+
+LUCÍA LARA LATORRE
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("teoriadecision_funciones_incertidumbre.R")
+```
+ - *EJERCICIO 1*
+ 
+ Aplicar los criterios de decisión bajo incertidumbre a los problemas cuya matriz de valores numéricos vienen dadas en las tablas siguientes
+```{r, include=FALSE}
+
+tb01a <- crea.tablaX(c(1,5,9,3,5,6,
+1,5,6,9,5,2,
+-5,3,-9,4),numalternativas=4, numestados=4)
+library(knitr)
+```
+```{r}
+kable(tb01a)
+```
+
+ 
+ 
+ 
+ - *EJERCICIO 2*
+ 
+Una empresa se está planteando introducir el teletrabajo. Actualmente el sistema es de completa presencialidad. Van a plantear 3 opciones : seguir con el modelo actual, un modelo de semipresencialidad y un modelo de trabajar totalmente desde casa. El rendimiento de la empresa dependerá de la adaptación de los trabajadores al método elegido.
+Los beneficios de la empresa en cada caso serán:
+
+- Con el sistema totalmente presencial, si los trabajadores no se adaptan los beneficios son 650, si se adaptan regular 550 y si se adaptan muy bien 700.
+
+- En el sistema mixto, si los clientes no se adaptan los beneficios son de 400, si se adaptan regular 900 y si se adaptan muy bien 950
+
+- Con el teletrabajo, si los clientes no se adaptan los beneficios son de 300, si se adaptan regular 1000 y si se adaptan muy bien 1500
+
+ 
+
+## EJERCICIO 1.
+Aplicar los criterios de decisión bajo incertidumbre a los problemas cuya matriz de valores viene dada e la tabla siguiente.  
+Considerar beneficios (favorable) y costos (desfavorable)  
+
+```{r echo=FALSE}
+source("teoriadecision_funciones_incertidumbre.R")
+m1A <- crea.tablaX(c(4,5,6,
+                     -7,1,3,
+                     5,-2,8,
+                     2,2,-10),
+                   numalternativas = 4, numestados = 3)
+m1A
+```
+
+
+## EJERCICIO 2.
+
+*Elección de Gimnasio y Plan de Inscripción*
+
+Alejandra está considerando la posibilidad de inscribirse en un gimnasio para mejorar su salud y estado físico. Ha investigado tres gimnasios y también tiene la opción de inscribirse individualmente o con un amigo. Los gimnasios y sus costos son los siguientes:
+ 
+  1. **Gimnasio Basic-Fit:** Ofrece una tarifa mensual de 50 euros e incluye acceso ilimitado a las instalaciones. Si se inscribe con un amigo, ambos obtienen un descuento del 20% en sus tarifas mensuales.  
+  
+  
+  2. **Centuty Fitness:** Tiene una tarifa mensual de 60 euros, que incluye acceso a las instalaciones y a clases de grupo sin costo adicional. Si se inscribe con un amigo, ambos obtienen un descuento del 15% en sus tarifas mensuales.  
+  
+  3. **Gimnasio Fitness Place:** Ofrece una tarifa mensual de 40 euros e incluye acceso a las instalaciones. Si se inscribe con un amigo, él paga la tarifa completa, pero Juan recibe un descuento del 10% en su tarifa mensual.  
+  
+  Alejandra tiene dos opciones de estados de la naturaleza para considerar:   
+  
+  **Estado de la Naturaleza 1: Inscripción Individual:** Alejandra decide inscribirse en el gimnasio solo, sin la compañía de un amigo.  
+  
+  
+ **Estado de la Naturaleza 2: Inscripción con Amigo:** Alejandra decide inscribirse en el gimnasio junto con un amigo para aprovechar los descuentos disponibles.  
+ 
+ ¿Cuál es la mejor opción para Alejandra en términos de costo total durante el primer año? Representa las ecuaciones de alternativas para cada gimnasio y estado de la naturaleza, y luego recomienda la opción más conveniente.
