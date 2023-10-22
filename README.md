@@ -5,7 +5,6 @@ Tareas TD curso 23-24
 - **Pepa Gutierrez Salado**
 - **María de la Encarnación Gómez Arias**
 - **Lucía Lara Latorre**
-- **Sebastián León Diaz**
 
 # Descripción
 Este proyecto consiste en plantear, cada uno, dos problemas (8 problemas en total), que se resuelven aplicando métodos de incertidumbre. Los métodos aplicados son:
